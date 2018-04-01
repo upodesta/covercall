@@ -24,20 +24,29 @@
 	<!-- Custom styles for this template -->
     <link href="/css/cover.css" rel="stylesheet">
 	
+	<!-- https://openid.stackexchange.com -->
+	<link rel="openid2.provider" href="https://openid.stackexchange.com/openid/provider">
+    <link rel="openid2.local_id" href="https://openid.stackexchange.com/user/0bb9a4bc-0065-4564-8f28-07c42abbee21">
+	
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
-	<!-- google analytics - i will not share this data with google -->
-	<!-- google analytics - i will not share this data with google -->
-	{% include analytics.html %}
-	<!-- disqus - i will not share this data with disqus -->
-	{% include disqus.html %}
-	<!-- Put this script tag to the <head> of your page -->
-    <script type="text/javascript" src="//vk.com/js/api/openapi.js?152"></script>
 	
-  </head>
+	<!-- google analytics - i will not share this data with google -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66934702-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-66934702-4');
+</script>
+    
+	
+ </head>
 
   <body class="text-center">
 
